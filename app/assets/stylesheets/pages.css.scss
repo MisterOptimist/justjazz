@@ -163,9 +163,12 @@ nav > a {
 }
 
 nav.share {display:inline-block;} /* shareable's nav tag */
-nav.share div {float:left; overflow:hidden;}
+nav.share div {float:right; overflow:hidden;}
 .fb_iframe_widget span { vertical-align: top; }
 .fb_edge_widget_with_comment { vertical-align: top;}
 .fb-like{display:inline-block}
 * html .fb-like{display:inline}/* ie6 inline block fix*/
 *+html .fb-like{display:inline}/* ie7 inline block fix*/
+
+
+
