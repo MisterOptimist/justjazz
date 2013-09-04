@@ -1,0 +1,90 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background:#000;
+}
+
+header {
+	padding-bottom:20px;
+}
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	width:1113px;
+	color:#eddd9d;
+	background-color:#000;
+
+	
+}
+
+
+#logo {
+	font-family: 'Lobster', cursive;
+	font-size:3em;
+}
+
+#tagline {
+	font-family: 'Oregano', cursive;
+	padding-left:25px;
+}
+
+.miles-left {
+	float:left;
+	height:auto;
+	width:236px;
+	padding-top:160px;
+}
+
+.miles-left img {
+	width:236px;
+
+}
+
+.miles-right {
+	float:right;
+	height:auto;
+	width:236.5px;
+	padding-top:160px;
+}
+
+.miles-right img {
+	width:236px;
+
+}
+.pull-right{
+	float:right;
+}
+.wrapper {
+
+	width:640px;
+	margin:0 auto;
+
+}
+
+.wrapper img {
+width:180px;
+}
+
+nav {
+	margin-top:15px;
+}
+nav > a {
+	text-decoration: none;
+	color: #fff;
+	padding:0px 10px 0px 10px;
+}
+
+
+#footer {
+	padding-top:40px;
+	text-align:right;
+	margin-bottom:20px;
+}
+
+#footer  a {
+	text-decoration:none;
+	color:#eddd9d;
+	font-size:.9em;
+}
