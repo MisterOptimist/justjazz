@@ -58,7 +58,7 @@
         player.stopVideo();
       }
     </script>
-
+    <div id="bg"><%= image_tag "brick.png" %></div>
     <div class="container">
     <div class ="miles-left">
         <%= image_tag "miles-left.png" %>
@@ -75,10 +75,8 @@
 				
 			
 				<nav>  
-				<a href="javascript:player.previousVideo()" id="previous">Previous</a>
-				<a href="javascript:player.playVideo()" id="play">Play</a>
-				<a href="javascript:player.pauseVideo()" id="pause">Pause</a>
-				<a href="javascript:nextVideo()" id="next" class="pull-right">Next</a>
+				<a href="javascript:player.previousVideo()" id="prev" class="pull-left">Previous</a>
+				<a href="javascript:nextVideo()" id="next" class="pull-right">Jazz Me!</a>
       
 
 				<div style="clear: both;"></div>
@@ -87,7 +85,7 @@
   				</div>
   				
     <div id="footer">
-    <p>JustJazz.me, 2013<br>
+        <p><a href="http://www.twitter.com/misteroptimist" class="href">JustJazz.me, 2013</a></p>
     <a href="http://www.twitter.com/misteroptimist" class="href">Made by @MisterOptimist</a>
     </p>
 	</div>
