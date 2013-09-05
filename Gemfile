@@ -26,7 +26,7 @@ end
 
 gem 'jquery-rails'
 gem 'shareable'
-
+gem 'google-analytics-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
