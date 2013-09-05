@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <meta property="og:image" content="<%= image_tag "miles-thumbnail.jpg" %>" />
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "409e3464-5ca3-4966-b5fb-6aa8c13ce335", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <%= analytics_init if Rails.env.production? %>
